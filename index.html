@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script src="./script.js"></script>
+<section class="sec">
+    <form class="feedback-form">
+        <h2>Обратная связь</h2>
+        
+        <input type="text" placeholder="Имя (обязательное)" required>
+        
+        <input type="email" placeholder="Email (обязательное)" required>
+        
+        <select required>
+            <option value="" disabled selected>Тип обращения</option>
+            <option value="1">Вопрос</option>
+            <option value="2">Жалоба</option>
+            <option value="3">Предложение</option>
+        </select>
+        
+        <textarea placeholder="Сообщение" rows="5"></textarea>
+        
+        <button type="submit" class="btn">Отправить</button>
+    </form>
+</section>
+</body>
+</html>
